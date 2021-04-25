@@ -35,6 +35,7 @@ dependencies {
     compileOnly 'org.projectlombok:lombok'
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-websocket', version: '2.4.5'
     implementation group: 'org.postgresql', name: 'postgresql', version: '42.2.20'
+    runtimeOnly 'org.postgresql:postgresql'
 }
 
 test {
